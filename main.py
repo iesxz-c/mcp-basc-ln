@@ -72,3 +72,5 @@ def notes_summary_prompt() -> str:
     with open(FILE, 'r') as f:
         content = f.read().strip()
     return content if content else "No notes available."
+##uv run mcp install main.py
+
