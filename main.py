@@ -74,3 +74,6 @@ def notes_summary_prompt() -> str:
     return content if content else "No notes available."
 ##uv run mcp install main.py
 
+
+
+
